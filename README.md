@@ -82,17 +82,19 @@ The study concludes that A-priori is suitable for small data samples due to its 
 python <script file> <input data path>
 
 ```sh
+#python <script file> <input data path>
 python3 APRIORI_CODE.py ../dataset/200Klottey_winning_draws.txt
 ```
 
 2. Run SON algorithm:
    
-python <script file> <input data path> <max size of itemset>
 ```sh
+#python <script file> <input data path> <max size of itemset>
 python SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
-   ```
+```
 OR 
-``` sh
+```sh
+#python <script file> <input data path> <max size of itemset>
 =======> python3 SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
 ```
 3. Run Association Rules:

@@ -1,5 +1,26 @@
 # Comparison Study Between A-priori and SON Algorithm on Lottery Winner Numbers Using MapReduce Algorithm
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Objectives](#objectives)
+- [Methodology](#methodology)
+  - [Data Collection](#data-collection)
+  - [Data Cleaning](#data-cleaning)
+  - [MapReduce Architecture](#mapreduce-architecture)
+  - [Algorithms](#algorithms)
+    - [A-priori Algorithm](#a-priori-algorithm)
+    - [SON Algorithm](#son-algorithm)
+- [Results](#results)
+  - [Association Rules](#association-rules)
+- [Conclusion and Future Work](#conclusion-and-future-work)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Adding Results Images](#adding-results-images)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ## Project Overview
 This project aims to compare two frequent data mining algorithms, A-priori and SON, using a dataset of lottery winning draws. By implementing parallel processing with the MapReduce algorithm on the PySpark environment, the project focuses on identifying interesting association rules between lottery winning numbers. The performance of both algorithms is evaluated based on computation time and memory usage.
 

@@ -81,9 +81,9 @@ The study concludes that A-priori is suitable for small data samples due to its 
 1. Run A-priori algorithm:
 python <script file> <input data path>
 
-   ```sh
-	python3 APRIORI_CODE.py ../dataset/200Klottey_winning_draws.txt
-    ```
+```sh
+python3 APRIORI_CODE.py ../dataset/200Klottey_winning_draws.txt
+```
 
 2. Run SON algorithm:
    

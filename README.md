@@ -15,7 +15,6 @@
 - [Conclusion and Future Work](#conclusion-and-future-work)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
   - [Usage](#usage)
 - [Adding Results Images](#adding-results-images)
 - [License](#license)
@@ -78,7 +77,27 @@ The study concludes that A-priori is suitable for small data samples due to its 
 - PySpark
 - Python
 
-### Installation
-1. Clone the repository:
+### Usage
+1. Run A-priori algorithm:
+python <script file> <input data path>
+
    ```sh
-   git clone https://github.com/yourusername/lottery-data-analysis.git
+	python3 APRIORI_CODE.py ../dataset/200Klottey_winning_draws.txt
+    ```
+
+2. Run SON algorithm:
+   
+python <script file> <input data path> <max size of itemset>
+```sh
+python SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
+   ```
+OR 
+``` sh
+=======> python3 SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
+```
+3. Run Association Rules:
+```sh
+python3 AssociationRules.py ../dataset/200Klottey_winning_draws.txt
+```
+Thank you!
+ 

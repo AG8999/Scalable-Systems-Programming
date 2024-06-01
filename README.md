@@ -95,7 +95,7 @@ python SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
 OR 
 ```sh
 #python <script file> <input data path> <max size of itemset>
-=======> python3 SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
+python3 SON_ALGO.py ../dataset/200Klottey_winning_draws.txt 3
 ```
 3. Run Association Rules:
 ```sh
